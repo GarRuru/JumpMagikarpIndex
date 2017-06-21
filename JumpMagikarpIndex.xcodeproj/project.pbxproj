@@ -14,6 +14,9 @@
 		70695F6E1EF6F254009EA733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70695F6C1EF6F254009EA733 /* LaunchScreen.storyboard */; };
 		70695F791EF6F254009EA733 /* JumpMagikarpIndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70695F781EF6F254009EA733 /* JumpMagikarpIndexTests.swift */; };
 		70695F841EF6F254009EA733 /* JumpMagikarpIndexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70695F831EF6F254009EA733 /* JumpMagikarpIndexUITests.swift */; };
+		70695F921EF6F6D7009EA733 /* MagiKarpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70695F911EF6F6D7009EA733 /* MagiKarpTableViewController.swift */; };
+		70695FA21EF795FB009EA733 /* AddMagiKarpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70695FA11EF795FB009EA733 /* AddMagiKarpTableViewController.swift */; };
+		70695FA41EF7A795009EA733 /* PeterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70695FA31EF7A795009EA733 /* PeterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		70695F7F1EF6F254009EA733 /* JumpMagikarpIndexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpMagikarpIndexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70695F831EF6F254009EA733 /* JumpMagikarpIndexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpMagikarpIndexUITests.swift; sourceTree = "<group>"; };
 		70695F851EF6F254009EA733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70695F911EF6F6D7009EA733 /* MagiKarpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiKarpTableViewController.swift; sourceTree = "<group>"; };
+		70695FA11EF795FB009EA733 /* AddMagiKarpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMagiKarpTableViewController.swift; sourceTree = "<group>"; };
+		70695FA31EF7A795009EA733 /* PeterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		70695F571EF6F254009EA733 = {
 			isa = PBXGroup;
 			children = (
+				70695FA11EF795FB009EA733 /* AddMagiKarpTableViewController.swift */,
 				70695F621EF6F254009EA733 /* JumpMagikarpIndex */,
 				70695F771EF6F254009EA733 /* JumpMagikarpIndexTests */,
 				70695F821EF6F254009EA733 /* JumpMagikarpIndexUITests */,
@@ -100,6 +107,8 @@
 				70695F631EF6F254009EA733 /* AppDelegate.swift */,
 				70695F651EF6F254009EA733 /* ViewController.swift */,
 				70695F671EF6F254009EA733 /* Main.storyboard */,
+				70695FA31EF7A795009EA733 /* PeterViewController.swift */,
+				70695F911EF6F6D7009EA733 /* MagiKarpTableViewController.swift */,
 				70695F6A1EF6F254009EA733 /* Assets.xcassets */,
 				70695F6C1EF6F254009EA733 /* LaunchScreen.storyboard */,
 				70695F6F1EF6F254009EA733 /* Info.plist */,
@@ -261,6 +270,9 @@
 			files = (
 				70695F661EF6F254009EA733 /* ViewController.swift in Sources */,
 				70695F641EF6F254009EA733 /* AppDelegate.swift in Sources */,
+				70695FA41EF7A795009EA733 /* PeterViewController.swift in Sources */,
+				70695F921EF6F6D7009EA733 /* MagiKarpTableViewController.swift in Sources */,
+				70695FA21EF795FB009EA733 /* AddMagiKarpTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				70695F8A1EF6F254009EA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70695F8B1EF6F254009EA733 /* Build configuration list for PBXNativeTarget "JumpMagikarpIndexTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				70695F8D1EF6F254009EA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70695F8E1EF6F254009EA733 /* Build configuration list for PBXNativeTarget "JumpMagikarpIndexUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				70695F901EF6F254009EA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
